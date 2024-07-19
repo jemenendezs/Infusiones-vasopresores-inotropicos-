@@ -6,12 +6,13 @@ La aplicación permite a los usuarios ingresar datos relacionados con la infusi�
 
 La fórmula general para calcular la velocidad de infusión en mililitros por hora (ml/h) a partir de una dosis en microgramos por kilogramo por minuto (mcg/kg/min) es la siguiente:
 
-$\text{Velocidad de infusión (ml/h)} = \frac{\text{Dosis (mcg/kg/min)} \times \text{Peso (kg)} \times 60}{\text{Concentración (mcg/ml)}}$
+$\text{Velocidad de infusión (ml/h)} = \frac{\text{Dosis (mcg/kg/min)} \times \text{Peso (kg)} \times 60}{\text{Concentración (mcg/ml)}/ \text{Volumen (mL)}}$
 
 Donde:
 - $\text{Dosis}$ $\text{(mcg/kg/min\)}$ es la dosis del medicamento por kilogramo de peso corporal por minuto. Para Nitroglicerina, $\text{Dosis}$ se expresa en $\text{(mcg/min)}$ y para Vasopresina, se expresa en $\text{(UI/min)}$.
 - $\text{Peso (kg)}$ es el peso del paciente en kilogramos.
 - $\text{Concentración [mg} \times \text{1000]}$ $\text{(mcg/ml)}$ es la concentración del medicamento en la solución (microgramos por mililitro).
+- $\text{Volumen (mL)}$ es el volumen total de la infusión en mililitros.
 - El factor $\(60\)$ convierte el cálculo de minutos a horas.
 
 ### **Componentes del Código:**
