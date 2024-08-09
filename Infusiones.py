@@ -37,10 +37,10 @@ class InfusionCalculator:
         self.default_values = {
             "Norepinefrina": (0.1, 1, 8, 100),       # mcg/kg/min, mg, ml
             "Epinefrina": (0.1, 1, 2, 100),          # mcg/kg/min, mg, ml
-            "Vasopresina": (0.01, 0.04, 40, 100),    # UI/min, UI, ml
+            "Vasopresina": (0.01, 0.04, 40, 100),    # UI/min,     UI, ml
             "Dopamina": (1, 20, 400, 250),           # mcg/kg/min, mg, ml
             "Dobutamina": (2, 20, 250, 250),         # mcg/kg/min, mg, ml
-            "Nitroglicerina": (5, 200, 50, 250),     # mcg/min, mcg, ml
+            "Nitroglicerina": (5, 200, 50, 250),     # mcg/min,    mg, ml
             "Nitroprusiato": (0.3, 10, 50, 250)      # mcg/kg/min, mg, ml
         }
 
